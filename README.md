@@ -80,12 +80,15 @@ like a prefix
 `.helper__hidden{}`
 ` .H__hidden{}` Shorten version
 
-Layout
+**Layout**
+
 in case of layout, if we need to add specific code to the layout composition
+
 `.layout__section{}`
 `.L__section{}`
 
-Media Queries
+**Media Queries**
+
 `.break-point__small{}`
 `.BP__sm{}`
 
@@ -96,19 +99,27 @@ Is a way to name your elements with some relation and meaning
 http://getbem.com/naming/
 
 **Block**
+
 Represent a meaningful thing in our web. It's an awareful tag, it know that he is important a represent something.
 Ex: 
 `.header{}`
 
 **Element**
+
 Is a part of a block, alone it has little or none meaning of this own.
+
 Ex: 
 `.header__logo{}`
+
 The logo has to be somewhere, that's why we need a block to contain it.
 
+
 **Modifier**
-They say people can't change, but element can!
+
+They say people can't change, but HTML can!
+
 Flags on blocks or elements. Use them to change appearance, behavior or state.
+
 Ex: 
 ~~~
 .header{}
